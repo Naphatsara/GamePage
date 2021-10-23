@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/game_addition.dart';
+import 'package:untitled/guess_age.dart';
 import 'package:untitled/pages/game/game2.dart';
 import 'dart:math';
 
@@ -35,9 +36,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData( // new ThemeData
 
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.lightGreen,
       ),
-      home: FontViewer(),
+      home: GuessAge(),
     );
   }
 }
